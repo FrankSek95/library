@@ -138,6 +138,33 @@ def librarian3=new Librarian(userName:'b3021780',
 				telephone: '0114260958').save()
 
 
+def student1=new Student(studentId:'b4019796',
+
+				name: 'Frank Sekyere',
+
+				email: 'b4019796@my.shu.ac.uk',
+
+				course: 'Computing').save()
+
+def student2=new Student(studentId:'b40103011',
+
+				name: 'Shabaz Khalid',
+
+				email: 'b40103011@my.shu.ac.uk',
+
+				course: 'Computing').save()
+
+
+def student3=new Student(studentId:'b1035385',
+
+				name: 'Qasim Shah',
+
+				email: 'b1035385@my.shu.ac.uk ',
+
+				course: 'Computing').save()
+
+
+
 
 
 

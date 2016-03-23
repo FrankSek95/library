@@ -106,6 +106,41 @@ def library3=new Library(location:'City Campus: Adsetts',
 				librarian: 'Will Smith').save()
 
 
+def librarian1=new Librarian(userName:'b4025516',
+
+				password:'password',
+
+				name: 'Will Smith',
+
+				email: 'b4025516@my.shu.ac.uk',
+
+				telephone: '0114260958').save()
+
+
+def librarian2=new Librarian(userName:'b3028830',
+
+				password:'password',
+
+				name: 'Matt Harati',
+
+				email: 'b3028830@my.shu.ac.uk',
+
+				telephone: '0114260958').save()
+
+def librarian3=new Librarian(userName:'b3021780',
+
+				password:'password',
+
+				name: 'Saad Tahir',
+
+				email: 'b3021780@my.shu.ac.uk',
+
+				telephone: '0114260958').save()
+
+
+
+
+
 def destroy = {
 }
 

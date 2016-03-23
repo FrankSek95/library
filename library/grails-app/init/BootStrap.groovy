@@ -78,13 +78,33 @@ def library1=new Library(location:'City Campus: Adsetts',
 
 				openingHours:'Open 24 Hours',
 
-				isbn:'019873346',
-
 				student: 'FrankSekyere',
 
 				book: 'The Alchemist',
 
 				librarian: 'Will Smith').save()
+
+
+def library2=new Library(location:'City Campus: Adsetts',
+
+				openingHours:'Open 24 Hours',
+
+				student: 'Qasim Shah',
+
+				book: 'Computing: A Concise History',
+
+				librarian: 'Will Smith').save()
+
+def library3=new Library(location:'City Campus: Adsetts',
+
+				openingHours:'Open 24 Hours',
+
+				student: 'Shabaz Khalid',
+
+				book: 'Computer Science: A Very Short Introduction',
+
+				librarian: 'Will Smith').save()
+
 
 def destroy = {
 }

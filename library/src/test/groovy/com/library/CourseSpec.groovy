@@ -15,8 +15,19 @@ class CourseSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void toString() {
+
+when:"A course has title, code and tutor"
+
+def course=new Course(title: 'Web System Design',
+
+code: 'WSD101',
+
+tutor: 'Tonderai Maswera')
+
+then: "the to String method will merge them."
+
+course.toString()=='Web System Design, WSD101, Tonderai Maswera'
+
     }
 }

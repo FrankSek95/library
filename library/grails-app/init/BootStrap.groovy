@@ -37,13 +37,58 @@ def course3=new Course(title:'IT Service Delivery',
 				department: 'Computing').save()
 
 
+def book1=new Book(title:'The Alchemist',
+
+				author:'Paulo Coelho',
+
+				isbn:'089567428',
+
+				student: 'Frank Sekyere',
+
+				dateBorrowed: ('19/03/2016'),
+
+				returnDate: ('23/03/2016')).save()
+
+def book2=new Book(title:'Computing: A Concise History',
+
+				author:'Pe Ceruzzi',
+
+				isbn:'026251767',
+
+				student: 'Qasim Shah',
+
+				dateBorrowed: ('10/03/2016'),
+
+				returnDate: ('18/03/2016')).save()
+
+def book3=new Book(title:'Computer Science: A Very Short Introduction',
+
+				author:'Subrata Dasgupta',
+
+				isbn:'019873346',
+
+				student: 'Shabaz Khalid',
+
+				dateBorrowed: ('09/03/2016'),
+
+				returnDate: ('23/03/2016')).save()
 
 
+def library1=new Library(location:'City Campus: Adsetts',
 
+				openingHours:'Open 24 Hours',
 
-}
+				isbn:'019873346',
+
+				student: 'FrankSekyere',
+
+				book: 'The Alchemist',
+
+				librarian: 'Will Smith').save()
 
 def destroy = {
+}
+
 
 }
 }

@@ -10,10 +10,11 @@ String studentId
 
 String course
 
+static hasMany=[books: Book, libraries: Library]
+
 String toString(){
 
-"$name, $email, $studentId"
-
+"$name, $email"
 }
 
     static constraints = {
@@ -26,5 +27,5 @@ email()
 
 course()
 
-    }
+}
 }

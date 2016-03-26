@@ -12,10 +12,11 @@ String department
 
 String description
 
+static hasMany=[students: Student]
+
 String toString(){
 "$title, $code, $tutor"
 }
-
 
     static constraints = {
 

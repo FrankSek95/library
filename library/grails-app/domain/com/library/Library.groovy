@@ -6,11 +6,12 @@ String location
 
 String openingHours
 
-String book
+Book book
 
-String student
+Student student
 
-String librarian
+Librarian librarian
+
 
 String toString(){
 

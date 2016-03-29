@@ -8,9 +8,9 @@ String email
 
 String studentId
 
-String course
+Course course
 
-static hasMany=[books: Book, libraries: Library]
+static hasMany=[books: Book, library: Library]
 
 String toString(){
 

@@ -12,7 +12,6 @@ Student student
 
 Librarian librarian
 
-
 String toString(){
 
 "$location, $openingHours"

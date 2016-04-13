@@ -44,11 +44,11 @@ body {
 }
 
 #grailsLogo {
-    background-color: #abbf78;
+    background-color: #f0f5f5;
 }
 
 a:link, a:visited, a:hover {
-    color: #48802c;
+    color: #000000;
 }
 
 a:hover, a:active {
@@ -91,7 +91,7 @@ img {
 }
 
 .footer {
-    background: #abbf78;
+    background: #f0f5f5;
     color: #000;
     clear: both;
     font-size: 0.8em;
@@ -101,7 +101,7 @@ img {
 }
 
 .footer a {
-    color: #255b17;
+    color: #f0f5f5;
 }
 
 .spinner {
@@ -567,3 +567,7 @@ a.skip {
     position: absolute;
     left: -9999px;
 }
+
+.homeCell{background: #f0f5f5
+border {thin solid #666666;
+color:#666666;}

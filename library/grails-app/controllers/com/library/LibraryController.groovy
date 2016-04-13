@@ -20,11 +20,18 @@ class LibraryController {
 
 def listBooks(Library library){
 if(params.id && Library.exists(params.id)){
+ render Library.findById(params.id) as JSON
+ }else{
+ render Library.list() as JSON
+ }
+}
+
+def listBooks2(Library library){
+if(params.id && Library.exists(params.id)){
  render Library.findById(params.id) as XML
  }else{
  render Library.list() as XML
  }
-
 }
 
 

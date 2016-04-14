@@ -34,6 +34,14 @@ if(params.id && Library.exists(params.id)){
  }
 }
 
+def bookId(Book book){
+if(params.id && Library.exists(params.id)){
+ render Library.findById(params.id) as XML
+ }else{
+ render Library.list() as XML
+ }
+}
+
 
     def create() {
         respond new Library(params)

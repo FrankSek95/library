@@ -21,8 +21,10 @@
 <span class="buttons">
 <a href= "http://localhost:8080/library/listBooks2">XML View</a>
 <a href= "http://localhost:8080/library/listBooks">JSON View</a>
+<a href= "http://localhost:8080/library/bookId">BookId</a>
 </span>
 </div>
+
 
 </body>
 </html>
